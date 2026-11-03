@@ -1,21 +1,39 @@
 #include <iostream>
-#include <string>
+#include <stdexcept>
+#include "functions.h"
 
 using namespace std;
 
 int main()
 {
-    string nimi;
-    int ika;
+    int a;
+    int b;
 
-    cout << "Anna nimesi: ";
-    cin >> nimi;
+    cout << "Anna luku a: ";
+    cin >> a;
 
-    cout << "Anna ikasi: ";
-    cin >> ika;
+    cout << "Anna luku b: ";
+    cin >> b;
 
-    cout << "Nimi: " << nimi << endl;
-    cout << "Ika: " << ika << endl;
+    calcSum(a, b);
+    calcDiv(a, b);
+
+    cout << "Palautettu summa: "
+         << retSum(a, b) << endl;
+
+    float result;
+
+    try
+    {
+        result = retDiv(a, b);
+        cout << a << "/" << b
+             << " = " << result << endl;
+    }
+    catch (runtime_error& e)
+    {
+        cout << "Error: "
+             << e.what() << endl;
+    }
 
     return 0;
 }

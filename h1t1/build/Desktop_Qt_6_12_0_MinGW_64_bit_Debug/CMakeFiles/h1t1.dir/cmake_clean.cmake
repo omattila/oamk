@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/h1t1.dir/functions.cpp.obj"
+  "CMakeFiles/h1t1.dir/functions.cpp.obj.d"
   "CMakeFiles/h1t1.dir/main.cpp.obj"
   "CMakeFiles/h1t1.dir/main.cpp.obj.d"
   "h1t1.exe"
