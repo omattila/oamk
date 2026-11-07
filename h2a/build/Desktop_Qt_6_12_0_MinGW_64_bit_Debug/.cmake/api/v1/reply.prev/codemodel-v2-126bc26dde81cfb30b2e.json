@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8688c8aa678beafe06d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "h2a",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "h2a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-h2a-Debug-f0022ff5803f165109dd.json",
+					"name" : "h2a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "h2a_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-h2a_autogen-Debug-290d83722fb1a305e766.json",
+					"name" : "h2a_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "h2a_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-h2a_autogen_timestamp_deps-Debug-c21328d77e8d2e1c50b1.json",
+					"name" : "h2a_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/omattila/Documents/GitHub/oamk/h2a/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+		"source" : "C:/Users/omattila/Documents/GitHub/oamk/h2a"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
